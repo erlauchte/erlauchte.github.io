@@ -6,21 +6,24 @@ body {
   font-family: 'Inter', sans-serif;
   background-color: #f9f7f1; /* parchment */
   color: #1e1c16; /* ink */
-  line-height: 1.6;
+  line-height: 1.7;
+  background-image: url('https://www.transparenttextures.com/patterns/paper-fibers.png');
+  background-repeat: repeat;
 }
 
 header {
   text-align: center;
   padding: 4rem 1rem 2rem 1rem;
-  border-bottom: 1px solid #d8c9a9;
+  border-bottom: 2px solid #b89c52;
 }
 
 header h1 {
   font-family: 'EB Garamond', serif;
-  font-size: 2.8rem;
+  font-size: 3rem;
   letter-spacing: 0.03em;
   margin: 0;
   color: #2d2a21;
+  text-shadow: 0 1px 0 #fff8e7;
 }
 
 header p.subtitle {
@@ -32,21 +35,42 @@ header p.subtitle {
 }
 
 main {
-  max-width: 700px;
+  max-width: 720px;
   margin: 2rem auto;
   padding: 0 1rem;
 }
 
 main p {
   margin-bottom: 1.5rem;
-  font-size: 1.05rem;
+  font-size: 1.08rem;
+}
+
+/* Drop caps */
+main p:first-letter {
+  font-family: 'EB Garamond', serif;
+  font-size: 2.5rem;
+  float: left;
+  margin-right: 0.3rem;
+  line-height: 1;
+  color: #b89c52;
+}
+
+/* Fleurons / ornaments */
+.ornament {
+  margin: 2rem auto;
+  text-align: center;
+  color: #b89c52;
+  font-size: 1.5rem;
+  letter-spacing: 0.5rem;
 }
 
 nav {
-  margin-top: 1.5rem;
+  margin-top: 2rem;
   text-align: center;
   font-variant: small-caps;
   letter-spacing: 0.08em;
+  border-top: 1px solid #d8c9a9;
+  padding-top: 1rem;
 }
 
 nav a {
@@ -54,11 +78,13 @@ nav a {
   text-decoration: none;
   color: #5a4c2b;
   border-bottom: 1px solid transparent;
-  transition: border-color 0.2s;
+  transition: all 0.3s ease;
 }
 
 nav a:hover {
   border-bottom: 1px solid #b89c52;
+  color: #b89c52;
+  text-shadow: 0 0 3px rgba(184, 156, 82, 0.5);
 }
 
 footer {
@@ -66,12 +92,17 @@ footer {
   text-align: center;
   font-size: 0.85rem;
   color: #7a6c48;
-  padding-bottom: 2rem;
+  padding: 2rem 1rem;
+  border-top: 2px solid #b89c52;
+  background-color: rgba(255, 248, 231, 0.4);
 }
 
-.ornament {
-  margin: 2rem auto;
-  text-align: center;
-  color: #b89c52;
-  font-size: 1.2rem;
+/* Headings with subtle ornaments */
+h2 {
+  font-family: 'EB Garamond', serif;
+  font-size: 1.5rem;
+  color: #2d2a21;
+  border-bottom: 1px solid #d8c9a9;
+  padding-bottom: 0.3rem;
+  margin-top: 2rem;
 }
