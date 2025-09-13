@@ -45,16 +45,6 @@ main p {
   font-size: 1.08rem;
 }
 
-/* Drop caps */
-main p:first-letter {
-  font-family: 'EB Garamond', serif;
-  font-size: 2.5rem;
-  float: left;
-  margin-right: 0.3rem;
-  line-height: 1;
-  color: #b89c52;
-}
-
 /* Fleurons / ornaments */
 .ornament {
   margin: 2rem auto;
