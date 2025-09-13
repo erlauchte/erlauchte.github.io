@@ -1,0 +1,77 @@
+/* Typography */
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;600&family=Inter:wght@300;400&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background-color: #f9f7f1; /* parchment */
+  color: #1e1c16; /* ink */
+  line-height: 1.6;
+}
+
+header {
+  text-align: center;
+  padding: 4rem 1rem 2rem 1rem;
+  border-bottom: 1px solid #d8c9a9;
+}
+
+header h1 {
+  font-family: 'EB Garamond', serif;
+  font-size: 2.8rem;
+  letter-spacing: 0.03em;
+  margin: 0;
+  color: #2d2a21;
+}
+
+header p.subtitle {
+  font-family: 'EB Garamond', serif;
+  font-style: italic;
+  font-size: 1.1rem;
+  color: #7a6c48;
+  margin: 0.5rem 0 0;
+}
+
+main {
+  max-width: 700px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+main p {
+  margin-bottom: 1.5rem;
+  font-size: 1.05rem;
+}
+
+nav {
+  margin-top: 1.5rem;
+  text-align: center;
+  font-variant: small-caps;
+  letter-spacing: 0.08em;
+}
+
+nav a {
+  margin: 0 1rem;
+  text-decoration: none;
+  color: #5a4c2b;
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.2s;
+}
+
+nav a:hover {
+  border-bottom: 1px solid #b89c52;
+}
+
+footer {
+  margin-top: 4rem;
+  text-align: center;
+  font-size: 0.85rem;
+  color: #7a6c48;
+  padding-bottom: 2rem;
+}
+
+.ornament {
+  margin: 2rem auto;
+  text-align: center;
+  color: #b89c52;
+  font-size: 1.2rem;
+}
